@@ -32,4 +32,4 @@ def EmploymentDetails(request):
     return render(request,  'profiles/employ-form.html', context)            
 
         
-
+# just testing
