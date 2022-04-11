@@ -20,6 +20,7 @@ def BiodataViews(request):
     return render(request,  'profiles/Bio-form.html', context)
 
 
+# employment form
 def EmploymentDetails(request):
     form = EmploymentDetailsForm()
     if request.method == 'POST':
